@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "JIRA Clear",
+  "description": "Clears the selected ticket from Jira URI",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {"scripts": ["background.js"] },
+  "page_action": {
+    "default_icon": "icon-48.png",
+    "default_title": "JIRA Clear"
+  },
+  "icons": { "16": "icon-16.png",
+             "48": "icon-48.png",
+            "128": "icon-128.png" }
+}
